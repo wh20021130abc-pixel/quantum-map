@@ -10,7 +10,7 @@ import streamlit as st
 
 # ==================== 路径 ====================
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-DATA_DIR = os.path.join(BASE_DIR, "date")
+DATA_DIR = BASE_DIR
 
 COMPANY_FILE = os.path.join(DATA_DIR, "量子科技-企业基本信息汇总.xlsx")
 KEYWORD_FILE = os.path.join(DATA_DIR, "量子科技企业关键词识别-名称、简介、经营范围、行业.xlsx")
